@@ -1,30 +1,39 @@
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 18px;
 }
 
-header, footer{
+header, footer {
     background-color: lightskyblue;
 }
 
-.site-title{
+.site-title {
     color:navy
 }
 
-#my-image{
+#my-image {
     box-shadow: 0px 0px 2px 1px black;
 }
 
-section li:nth-child(odd){
+section h3{ 
+    list-style-type: square;
+}
+
+section li:nth-child(odd) {
     background-color: aquamarine;
 }
 
-nav ul a{
+nav ul {
+    list-style-type: none;
+}
+
+nav ul a {
     text-decoration: none; 
     background-color:aqua; 
     border-style: dotted;
     border-color: orange;
    }
 
-nav ul a:hover{
+nav ul a:hover {
     background-color:greenyellow;
 }
