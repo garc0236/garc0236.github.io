@@ -24,3 +24,7 @@ nav ul a{
     border-style: dotted;
     border-color: orange;
    }
+
+nav ul a:hover{
+    background-color:greenyellow;
+}
