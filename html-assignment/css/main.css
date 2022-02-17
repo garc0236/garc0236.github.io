@@ -15,7 +15,7 @@ header, footer {
     box-shadow: 0px 0px 2px 1px black;
 }
 
-section h3{ 
+.square { 
     list-style-type: square;
 }
 
@@ -24,14 +24,15 @@ section li:nth-child(odd) {
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
 }
 
-nav ul a {
+nav ul a{
     text-decoration: none; 
     background-color:aqua; 
     border-style: dotted;
     border-color: orange;
+    
    }
 
 nav ul a:hover {
