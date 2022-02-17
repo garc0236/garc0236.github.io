@@ -18,6 +18,9 @@ section li:nth-child(odd){
     background-color: aquamarine;
 }
 
-nav ul a:link{
-    text-decoration: none;
-}
+nav ul a{
+    text-decoration: none; 
+    background-color:aqua; 
+    border-style: dotted;
+    border-color: orange;
+   }
