@@ -17,3 +17,7 @@ header, footer{
 section li:nth-child(odd){
     background-color: aquamarine;
 }
+
+nav ul a:link{
+    text-decoration: none;
+}
