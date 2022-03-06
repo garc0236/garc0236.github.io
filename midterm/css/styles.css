@@ -1,4 +1,15 @@
 body {
     background-color: #aad4cf;
+    margin: 0 auto;
+}
+
+header h1{
+    font-family: sans-serif;
+    font-size: 60px;
+    color: white;
+    font-weight: lighter;
     margin: 0;
+    position: absolute;
+    top: 195px;
+    left: 335px;
 }
