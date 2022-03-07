@@ -13,14 +13,23 @@ header h1{
     left: 335px;
 }
 
+nav ul{
+    padding-left: 0px;
+}
 
-header ul li{
+nav li{
     list-style: none;
-    display: inline;
+    display: inline-block;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    
  
 }
 
 .site-header{
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto;    
+    
 }
