@@ -76,7 +76,7 @@ li a{
     max-width: 1023px;
     background-color: #d4e7e5;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 /* clearfix to add space*/
 .clearfix::before{
@@ -108,4 +108,12 @@ article h2{
     float: left;
     margin-right: 20px;
     margin-bottom: 30px;
+}
+
+/*modifying article text*/
+
+article p{
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: lighter;
 }
