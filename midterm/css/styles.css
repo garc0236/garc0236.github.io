@@ -133,3 +133,18 @@ section ul li{
     list-style: disc;
     margin-left: 15px;
 }
+/*heading of last section*/
+
+section h2{
+    font-size: 29px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+/* adding box to the new section*/
+
+.box{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+}
