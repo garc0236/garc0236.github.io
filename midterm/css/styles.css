@@ -117,3 +117,18 @@ article p{
     font-size: 16px;
     font-weight: lighter;
 }
+
+/*targeting heading and list elements in the new section*/
+
+h3{
+    font-size: 29px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+
+section ul li{
+    font-size: 16px;
+    font-family: verdana;
+    list-style: disc;
+}
