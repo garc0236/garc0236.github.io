@@ -20,11 +20,12 @@ body{
 .site-header{
     max-width: 1024px;
     margin: 0 auto;
+    background-color:#d4e7e5;
+    
 }
 
 
 header img{
-    display: block;
     margin: 0 auto;
 }
 
@@ -36,8 +37,8 @@ header h1{
     color: white;
     font-weight: lighter;
     position: relative;
-    top: 305px;
-    left: 335px;
+    bottom: 190px;
+    right: -335px;
 }
 /*configuration of nav bar*/
 
@@ -70,7 +71,6 @@ li a{
     border-right: 1px solid;
 }
 
-
 .story{
     border-right: 1px solid;
 }
@@ -78,10 +78,12 @@ li a{
 
 .wrapper {
     margin: 0 auto;
-    max-width: 1023px;
+    max-width: 1024px;
     background-color: #d4e7e5;
     padding-left: 10px;
     padding-right: 20px;
+    position: relative;
+    bottom: 70px;   
 }
 /* clearfix to add space*/
 .clearfix::before{
