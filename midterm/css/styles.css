@@ -118,7 +118,7 @@ article p{
     font-weight: lighter;
 }
 
-/*targeting heading and list elements in the new section*/
+/*targeting heading and list elements in the facts section*/
 
 h3{
     font-size: 29px;
@@ -141,10 +141,59 @@ section h2{
     font-weight: lighter;
     margin-bottom: 10px;
 }
-/* adding box to the new section*/
+/* adding box to the contact section*/
 
 .box{
     width: 1000px;
     height: 500px;
     border: 1px solid black;
+    padding: 20px;
+}
+
+/*targeting titles, input boxes and div with classes*/
+
+/*name section*/
+
+.tname{    
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.bname{
+    display: block;
+    position: absolute;
+    width: 960px;
+    margin: 10px 0 30px 0;
+}
+/* email section*/
+.bemail{
+    margin: 10px 0 30px 0;
+    width: 960px;
+}
+
+.temail{
+    font-weight: lighter;
+    font-size:18px;
+    font-family: sans-serif;
+}
+
+.demail{
+    margin-top: 50px;
+}
+
+/*message section*/
+
+.bmessage{
+    display: block;
+    position: absolute;
+    width: 960px;
+    height:80px;
+    margin: 10px 0 30px 0;
+}
+
+.tmessage{
+    font-weight: lighter;
+    font-size:18px;
+    font-family: sans-serif;
 }
