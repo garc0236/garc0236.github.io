@@ -197,3 +197,37 @@ section h2{
     font-size:18px;
     font-family: sans-serif;
 }
+/*visit us section*/
+
+/*heading*/
+
+.dvisit h2{
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+
+/*yes radial button*/
+
+.tvisit{
+    font-weight: lighter;
+    font-size:18px;
+    font-family: sans-serif;
+}
+
+.dvisit{
+    margin-top: 110px;
+}
+
+/*no radial button*/
+.tnot{
+    font-weight: lighter;
+    font-size:18px;
+    font-family: sans-serif;
+}
+
+/*maybe radial button*/
+.tmaybe{
+    font-weight: lighter;
+    font-size:18px;
+    font-family: sans-serif;
+}
