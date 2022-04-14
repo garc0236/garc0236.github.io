@@ -49,6 +49,23 @@ table {
 
 /* RESET CODE ADDED*/
 
-body {
-    background-color:white;
+html {
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+.nav-bar {
+    background-color:#222;
+}
+
+.nav-bar .logo { 
+    max-width: 1200px;
+    height: auto;
 }
