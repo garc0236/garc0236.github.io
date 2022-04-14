@@ -11,7 +11,7 @@
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <header class="wrapper-a"> <!--adding header area with class wrapper-->
+    <header class="wrapper"> <!--adding header area with class wrapper-->
         <div class="nav-bar"> <!--dividing nav bar with a div-->
             <nav>
                 <img class="logo" src="images/logo.png" alt="logo"> <!--adding logo image before list of items-->
@@ -27,24 +27,24 @@
             </nav>
         </div>
     </header>    
-    <div class="banner"> <!--adding banner area-->
+    <div class="banner"> <!--adding banner area with a class for targeting after in CSS-->
         <img src="images/main-banner.jpg" alt="main-banner"> <!--adding banner image-->
-        <div class="welcome"> <!--wrapper for text area-->
+        <div class="wrapper"> <!--wrapper for text area-->
             <h1>Welcome to Three Star Media</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae laboriosam ad culpa omnis facere repellendus maiores iure beatae rem nisi quas accusantium id aliquam quisquam, libero totam perspiciatis adipisci? Harum!</p>
             <a class="connect" href="#">Connect with us</a>
             <i class="fa-solid fa-caret-right"></i> <!--adding font-awesome caret icon-->
         </div>        
     </div>                            
-    <div class="about">     <!--adding about area - yellow area-->   
-        <div class="wrapper-b"> <!--adding a wrraper for image and paragraph below-->
-            <img class="ttennis" src="images/about-us.jpg" alt="about-us"> <!--adding a class to the image for targeting in css-->
+    <div class="about">     <!--adding about area with a div and class to target in CSS - yellow area-->   
+        <div class="wrapper"> <!--adding a wrraper for image and paragraph below-->
+            <img class="ttennis" src="images/about-us.jpg" alt="about-us"> <!--adding a class to the image for targeting in css possibly with float-->
             <h1>About Us</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, laboriosam. Mollitia praesentium cupiditate optio facere blanditiis! Eum nisi vel iure, possimus, deleniti voluptas quisquam voluptatum tempore quibusdam nemo suscipit repellat.</p>             
         </div>
     </div>
-    <div class="ourserv">  <!--background white area-->      
-        <div class="wrapper-c"> <!--wrapper our services area-->
+    <div class="ourserv">  <!--div with a class for background white area-->      
+        <div class="wrapper"> <!--wrapper our services area which contains possibly the grid function-->
             <h1>Our Services</h1>            
             <div class="trans">
                 <img class="digital" src="images/digital.jpg" alt="digital">
@@ -83,9 +83,9 @@
             </div>
         </div>
     </div>
-    <div class="ourvision"> <!--adding vision area-->
+    <div class="ourvision"> <!--adding vision area outside the wrapper to get the image across the whole page-->
         <img class="boats" src="images/vision.jpg" alt="vision">
-        <div class="wrapper-d"> <!--area with its proper wrapper-->
+        <div class="wrapper"> <!--area with its proper wrapper-->
             <h2>Our Vision</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, rerum voluptates eligendi officiis nesciunt itaque in harum aliquid temporibus accusantium quae nisi saepe porro suscipit error ea impedit? Omnis, voluptatibus.</p>
             <a class="learn" href="#">Learn More</a> <!--adding link with a class-->
@@ -93,7 +93,7 @@
         </div>
     </div>
     <div class="ourteam"> <!--White background area-->
-        <div class="wrapper-e"><!--our team wrapper-->
+        <div class="wrapper"><!--our team wrapper-->
             <h1>Our Team</h1>
             <img class="john" src="images/john.jpg" alt="john"> <!--adding john's image with a class-->
             <div class="info-jhon"> <!--creating a class specifically to target in css john's info-->
@@ -112,25 +112,27 @@
         </div>
     </div>
     <div class="contactus"> <!--white background area-->
-        <div class="wrapper-f"> <!--contact us wrapper-->
+        <div class="wrapper"> <!--contact us wrapper-->
             <h1>Contact Us</h1>
             <div class="sendus"> <!--"Send us" section-->
-                <h2>Send us a message</h2>
-                <div class="dname"> <!--adding box for name area with a class-->
-                    <label for="yourname" class="tname">Full Name</label>
-                    <input class="bname" type="text" id="yourname" name="yourname">
-                </div>
-                <div class="demail"> <!--adding box for email area with a class -->
-                    <label for="youremail" class="temail">Email</label>
-                    <input class="bemail" type="text" id="youremail" name="youremail">
-                </div>
-                <div class="dmess">
-                    <label for="yourmessage" class="tmessage">Message</label> <!--adding box for message area  with a class-->
-                    <input class="bmessage" type="text" id="yourmessage" name="yourmessage">
-                </div>
-                <div class="dbutton"> <!--adding "send" button with a class-->
-                    <button class="button" type="submit">SEND</button>
-                </div>               
+                <form action="npage.html" method="get"> <!--corrects some errors in prof's review-->
+                    <h2>Send us a message</h2>
+                    <div class="dname"> <!--adding box for name area with a class-->
+                        <label for="yourname" class="tname">Full Name</label>
+                        <input class="bname" type="text" id="yourname" name="yourname">
+                    </div>
+                     <div class="demail"> <!--adding box for email area with a class -->
+                        <label for="youremail" class="temail">Email</label>
+                        <input class="bemail" type="text" id="youremail" name="youremail">
+                    </div>
+                    <div class="dmess">
+                        <label for="yourmessage" class="tmessage">Message</label> <!--adding box for message area  with a class-->
+                        <input class="bmessage" type="text" id="yourmessage" name="yourmessage">
+                    </div>
+                    <div class="dbutton"> <!--adding "send" button with a class-->
+                        <button class="button" type="submit">SEND</button>
+                    </div>
+                </form>               
             </div>
             <div class="hours"> <!--Hours of operation's section-->
                 <h2>Hours of operation</h2>
