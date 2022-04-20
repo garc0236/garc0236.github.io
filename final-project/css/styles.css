@@ -99,6 +99,7 @@ a:visited {
     color: #c78c06;
 }
 /* targeting and modifying specifically the first link on the nav bar */
+
 .nav-bar .home {
     color: #222;
     background-color: #c78c06;
@@ -106,6 +107,34 @@ a:visited {
     padding-bottom: 10px;
     margin-top: 0px;
     margin-bottom: 0px;    
+}
+
+/* new wrapper added just to make a responsive search bar in the nav bar area */
+
+.sbwrapper {
+    display: flex; /* using only flex to make a row through the nav bar area */          
+}
+.searchb { /* modifying shape of search bar */
+    margin:20px;
+    width: 100%;
+    height: 2rem;    
+    font-size: 20px;    
+}
+
+.iconm {    /* modifying shape of icon */
+    width: 50px;
+    height: 2rem;    
+    padding: 0px;
+    background-color: #222;
+    border-color: #c78c06;
+    position: relative;
+    right: 18px;
+    bottom: -20px;       
+}
+
+.fa-magnifying-glass { /* modifying shape of magnifying glass */
+    color: #c78c06;
+    font-size: 30px;       
 }
 
 
