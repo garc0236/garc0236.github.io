@@ -49,7 +49,9 @@ table {
 
 /* RESET CODE ADDED*/
 
+/*We need to implement the box model*/
 html {
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
 }
 
@@ -57,15 +59,53 @@ html {
     box-sizing: border-box;
 }
 
-.wrapper {
+/* set up of the wrapper centering everything*/
+.wrapper {  
     max-width: 1200px;
     margin: auto;
 }
-.nav-bar {
+.nav-part {
     background-color:#222;
+
 }
 
-.nav-bar .logo { 
+.logo { 
     max-width: 1200px;
     height: auto;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    background-color: #c78c06;
+    border:0px;
+    position:absolute; /* this is for integrate the logo into the first link item (overlapping) */
+    top:5px; 
 }
+
+
+/* targeting and modifying list of elements in nav bar for centering text and remove default text decorations */
+li a:link {
+    font-size: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #c78c06;
+    text-align: center;  
+    display:flex;
+    flex-direction: column;
+    margin: 20px;    
+}
+
+/* this is for get rid off the annoying purple color when a link is visited */
+
+a:visited { 
+    color: #c78c06;
+}
+/* targeting and modifying specifically the first link on the nav bar */
+.nav-bar .home {
+    color: #222;
+    background-color: #c78c06;
+    padding-top: 150px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;    
+}
+
+
