@@ -155,8 +155,8 @@ nav li a {
 .wrapper-welcome {    /*grey box banner text area*/
     background-color:rgb(0, 0, 0, 0.7);    
     max-width: 1200px;
-   /* margin: auto; /*allows to get the edge to edge look in mobile interface*/
-    height: auto;
+    margin: auto; /*allows to get the edge to edge look in mobile interface*/
+    /*height: auto;*/
     padding: 100px; /*shrinks or enlarge shadowed box*/
     position:absolute;
     top: 520px;          
@@ -215,15 +215,16 @@ nav li a {
  /* END OF ABOUT SECTION */
 
  /* START OF OUR SERVICES SECTION */
-
-.ourserv { /*applying background to "our services" area*/
+                                             /* DIGITAL TRANSFORMATION */
+ 
+.ourserv { /*applying background to "our services" area*/          
     background-color: RED;
     max-width: 1200px;
     margin: auto;    
 }
 
 .trans { /* applying padding to second div for demark more the padding area*/
-    padding:10px 40px 40px 40px;    
+    padding:10px 40px 20px 40px;    
 }
 .hos { /*targeting h1 to correct some padding*/
     padding: 40px 20px 20px 30px;  
@@ -250,4 +251,28 @@ nav li a {
     padding: 40px 20px 10px 0px;
 }
 
+                                        /* END DIGITAL TRANSFORMATION */
 
+                                        /* MARKETING */
+.marketing {
+    width: 100%;  
+}
+.market {
+    padding:10px 40px 20px 40px; 
+}
+
+.market h2 {
+    font-size: 32px;
+   font-weight: bold;
+   padding: 20px 20px 20px 0px;
+}
+
+.marketplans {
+    color:white;
+    font-size: 28px;
+    text-decoration: none;
+    background-color:#222;       
+    padding:20px ; 
+    text-align: left; 
+}
+                                    /* END MARKETING */
