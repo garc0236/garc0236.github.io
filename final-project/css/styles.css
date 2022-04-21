@@ -218,13 +218,15 @@ nav li a {
                                              /* DIGITAL TRANSFORMATION */
  
 .ourserv { /*applying background to "our services" area*/          
-    background-color: RED;
+    background-color: white;
     max-width: 1200px;
     margin: auto;    
 }
 
 .trans { /* applying padding to second div for demark more the padding area*/
-    padding:10px 40px 20px 40px;    
+    padding-bottom: 25px;
+    margin:10px 40px 20px 40px;
+    background-color: #ffe6ac;    
 }
 .hos { /*targeting h1 to correct some padding*/
     padding: 40px 20px 20px 30px;  
@@ -232,7 +234,11 @@ nav li a {
 .trans h2{ /*targeting h1 to demark some padding area*/
    font-size: 32px;
    font-weight: bold;
-   padding: 20px 20px 20px 0px; 
+   padding: 20px 20px 20px 0px;
+   margin: 10px; 
+}
+.trans p {
+    margin: 10px;
 }
 .digital { /*adapting image to delimited area*/
     width: 100%;
@@ -244,7 +250,8 @@ nav li a {
     text-decoration: none;
     background-color:#222;       
     padding:20px ; 
-    text-align: left; 
+    text-align: left;
+    margin: 10px; 
 }
 
 .button { /*targeting a div to format all buttons after this one (digital plans)*/
@@ -258,13 +265,20 @@ nav li a {
     width: 100%;  
 }
 .market {
-    padding:10px 40px 20px 40px; 
+    padding-bottom: 25px;
+    margin:10px 40px 20px 40px;
+    background-color: #ffe6ac; 
 }
 
 .market h2 {
     font-size: 32px;
    font-weight: bold;
    padding: 20px 20px 20px 0px;
+   margin: 10px;
+}
+
+.market p {
+    margin: 10px; 
 }
 
 .marketplans {
@@ -273,6 +287,9 @@ nav li a {
     text-decoration: none;
     background-color:#222;       
     padding:20px ; 
-    text-align: left; 
+    text-align: left;
+    margin: 10px; 
 }
                                     /* END MARKETING */
+                                    /* VIDEO PRODUCTION */
+
