@@ -103,7 +103,7 @@ nav li a {
 
 /* targeting and modifying specifically the first link on the nav bar */
 
-.nav-bar .home {
+.home {
     color: #222;
     background-color: #c78c06;
     padding-top: 150px;
@@ -587,3 +587,41 @@ nav li a {
 }
 
                     /*END OF FOOTER SECTION*/
+
+                    /*START OF MEDIA QUERIES*/
+
+@media screen and (min-width: 760px) { /*we need to set up the minimum point of resolution to star see things changing*/
+
+    .nav-part { /*we need to target the div with the class which control the padding area*/
+        margin: auto;
+        max-width: 1200px;
+        padding-bottom: 40px;
+    }
+    .home { /*also we need to change some configurations with padding specialy with the first li item*/
+        color: #222;
+        background-color: #c78c06;
+        padding: 20px;        
+        margin-top: 0px;
+        margin-bottom: 0px;    
+    }
+   .navigation {
+       display:flex; /*in order to get the nav bar in a top row we need to apply the "flex" property*/
+       flex-direction: row; /*we need to emphasis the direction of flex*/
+       justify-content:center; /*in order to get centered items, we have to apply this property*/
+       margin: auto; /*centers the div*/
+       width: 100%;  /*takes the whole determined in the div above*/     
+   }
+
+   .nav-bar { /*targets the ul and its childs only*/
+       display: flex;
+       justify-content:right;
+       align-items:center;
+   }
+
+   .sbwrapper { /*targets the search bar and its childs only*/
+       display: flex;
+       justify-content: end;
+
+   }
+    
+}
