@@ -50,14 +50,16 @@ table {
 /* RESET CODE ADDED*/
 
 /*We need to implement the box model*/
-html {
+html {    
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
+    
 }
 
 * {
     box-sizing: border-box;
 }
+
 
 /* set up of the wrapper centering everything*/
 .wrapper {  
@@ -148,24 +150,24 @@ nav li a {
 }
 
 .mbanner { /*targeting image*/
-    max-width: 1200px;
-    z-index: -1;
+    max-width: 1200px;    
 }
 .wrapper-welcome {    /*grey box banner text area*/
     background-color:rgb(0, 0, 0, 0.7);    
     max-width: 1200px;
-    margin: 0px; /*allows to get the edge to edge look in mobile interface*/
+   /* margin: auto; /*allows to get the edge to edge look in mobile interface*/
     height: auto;
     padding: 100px; /*shrinks or enlarge shadowed box*/
     position:absolute;
-    top: 600px;          
+    top: 520px;          
 }
 
-.wrapper-welcome h1 { /*target only h1 in banner area*/
+.hwel { /*target only h1 in banner area*/
     font-size: 80px;
     color: white;
     padding:20px 0px 20px 0px;  /*adds some space between h1 and p*/
     text-align: left;    /*aligns a little bit to the left*/
+    font-weight:bold;
 }
 
 .wrapper-welcome p { /*target only paragraph in banner area*/
@@ -188,5 +190,64 @@ nav li a {
 
 /* START OF ABOUT SECTION */
 
+ .about { /*styling background of "about us" section*/ 
+     background-color:#ffe6ac;
+     max-width: 1200px;
+     margin: auto;
+     padding: 20px;
+ }
+
+ .ttennis { /* changing image size and adding some padding to bottom area*/
+     width: 100%;
+     padding-bottom: 10px;
+ }
+
+ h1 { /* styling all h1 titles*/
+    font-size:48px;
+    padding: 20px 20px 20px 0px;
+    font-weight: bold;
+ }
+
+ .parabt { /*targeting paragraphs of "about us section"*/
+     font-size: 18px;
+ }
+
+ /* END OF ABOUT SECTION */
+
+ /* START OF OUR SERVICES SECTION */
+
+.ourserv { /*applying background to "our services" area*/
+    background-color: RED;
+    max-width: 1200px;
+    margin: auto;    
+}
+
+.trans { /* applying padding to second div for demark more the padding area*/
+    padding:10px 40px 40px 40px;    
+}
+.hos { /*targeting h1 to correct some padding*/
+    padding: 40px 20px 20px 30px;  
+}
+.trans h2{ /*targeting h1 to demark some padding area*/
+   font-size: 32px;
+   font-weight: bold;
+   padding: 20px 20px 20px 0px; 
+}
+.digital { /*adapting image to delimited area*/
+    width: 100%;
+}
+
+.digitalplans { /* modifying link to style it as a button*/
+    color:white;
+    font-size: 28px;
+    text-decoration: none;
+    background-color:#222;       
+    padding:20px ; 
+    text-align: left; 
+}
+
+.button { /*targeting a div to format all buttons after this one (digital plans)*/
+    padding: 40px 20px 10px 0px;
+}
 
 

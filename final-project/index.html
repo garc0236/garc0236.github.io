@@ -37,7 +37,7 @@
     <div class="main-banner">
         <img class="mbanner" src="images/main-banner.jpg" alt="main-banner"> <!--adding banner image with a class to target in css-->        
         <div class="wrapper-welcome"> <!--wrapper for text area-->
-            <h1><strong>Welcome to Three Star Media</strong></h1>
+            <h1 class="hwel"><strong>Welcome to Three Star Media</strong></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae laboriosam ad culpa omnis facere repellendus maiores iure beatae rem nisi quas accusantium id aliquam quisquam, libero totam perspiciatis adipisci? Harum!</p>
             <div class="bconnect">
                 <a href="#" class="connect">Connect with us
@@ -50,18 +50,25 @@
         <div class="wrapper"> <!--adding a wrraper for image and paragraph below-->
             <img class="ttennis" src="images/about-us.jpg" alt="about-us"> <!--adding a class to the image for targeting in css possibly with float-->
             <h1>About Us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, laboriosam. Mollitia praesentium cupiditate optio facere blanditiis! Eum nisi vel iure, possimus, deleniti voluptas quisquam voluptatum tempore quibusdam nemo suscipit repellat.</p>             
+            <div class="parabt">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, laboriosam. Mollitia praesentium cupiditate optio facere blanditiis! Eum nisi vel iure, possimus, deleniti voluptas quisquam voluptatum tempore quibusdam nemo suscipit repellat.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsam nostrum natus dolore dolores! Fugiat qui perspiciatis id sit deserunt, minima cumque, illum nemo unde ratione odio magni esse blanditiis.</p>
+            </div>             
         </div>
     </div>
     <div class="ourserv">  <!--div with a class for background white area-->      
         <div class="wrapper"> <!--wrapper our services area which contains possibly the grid function-->
-            <h1>Our Services</h1>            
+            <h1 class="hos">Our Services</h1>            
             <div class="trans">
                 <img class="digital" src="images/digital.jpg" alt="digital">
                 <h2>Digital Transformation</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magni animi voluptates, enim, hic eum quia nihil explicabo corporis tempora amet perspiciatis perferendis ad dolor asperiores debitis officiis nisi alias?</p>
-                <a class="digitalplans" href="#">Digital Plans</a> <!--adding link with a class for targeting after in css-->
-                <i class="fa-solid fa-caret-right"></i> <!--adding font-awesome caret icon-->
+                <div class="button">
+                    <a class="digitalplans" href="#">Digital Plans <!--adding link with a class for targeting after in css-->
+                        <i class="fa-solid fa-caret-right"></i> <!--adding font-awesome caret icon-->
+                    </a>
+                </div> 
             </div>
             <div class="market"> <!--adding marketing area with a class-->
                 <img class="marketing" src="images/marketing.jpg" alt="marketing">
@@ -166,7 +173,7 @@
                 </table>
             </div>
             <div class="location"> <!--Location's section-->
-                <h1>Location</h1>
+                <h2>Location</h2>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9445518044913!2d-75.7571254846934!3d45.349931549082264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1649212414983!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <!--embedding google maps location-->
             </div>
         </div>
