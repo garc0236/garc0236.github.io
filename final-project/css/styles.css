@@ -398,9 +398,7 @@ nav li a {
 .ourv { /*positioning second div with paragraphs and button*/
     position:relative;
     bottom: 500px;
-    padding-bottom: 25px;
-    
-
+    padding-bottom: 25px;    
 }
 
 .ourv h2 { /*targeting h2 to demark some padding area*/
@@ -434,7 +432,7 @@ nav li a {
     width: 100%;
 }
 
-.ourteam { 
+.ourteam {  /*streching out the div and centering*/
     max-width: 1200px;
     margin: auto;    
 }
@@ -459,8 +457,43 @@ nav li a {
     color: #c78c06;
 }
         /* END JHON PART */
+
         /* BOB PART */
 
-.bob {
+.bob { /*bob's image*/
     width: 100%;
 }
+
+.info-bob { /*div for background styling*/
+    background-color: #ffe6ac;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.info-bob h2 { /*styling h2*/
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px 20px 10px 0px;    
+    font-weight: bold;
+}
+        /*END BOB PART */
+
+        /*CONTACT US PART*/
+
+.contactus{ /*streching out the div and centering*/
+    max-width: 1200px;
+    margin: auto;
+}
+.sendus h2 { /*styling h2*/
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 20px 20px 0px;
+}
+
+.bname { /*fitting dedicated space for full name"*/
+    display: block;
+    width: 100%;
+    height: 2rem;
+    margin: 10px 0px 10px 0px;
+}
+
