@@ -147,7 +147,7 @@ nav li a {
     margin: auto;      
 }
 
-.mbanner {
+.mbanner { /*targeting image*/
     max-width: 1200px;
     z-index: -1;
 }
@@ -168,7 +168,7 @@ nav li a {
     text-align: left;    /*aligns a little bit to the left*/
 }
 
-.wrapper-welcome p {
+.wrapper-welcome p { /*target only paragraph in banner area*/
     font-size: 18px;
     color:white;
     padding:30px 0px 50px 0px; /*adds some space between p and h1*/
