@@ -223,7 +223,7 @@ nav li a {
     margin: auto;    
 }
 
-.trans { /* applying padding to second div for demark more the padding area*/
+.trans { /* applying styling to div for demark more area*/
     padding-bottom: 25px;
     margin:10px 40px 20px 40px;
     background-color: #ffe6ac;    
@@ -237,7 +237,7 @@ nav li a {
    padding: 20px 20px 20px 0px;
    margin: 10px; 
 }
-.trans p {
+.trans p { /*adding margin to paragraph*/
     margin: 10px;
 }
 .digital { /*adapting image to delimited area*/
@@ -261,27 +261,27 @@ nav li a {
                                         /* END DIGITAL TRANSFORMATION */
 
                                         /* MARKETING */
-.marketing {
+.marketing { /*adapting image to delimited area*/
     width: 100%;  
 }
-.market {
+.market { /* applying styling to div for demark more area*/
     padding-bottom: 25px;
     margin:10px 40px 20px 40px;
     background-color: #ffe6ac; 
 }
 
-.market h2 {
+.market h2 { /*targeting h2 to demark some padding area*/
     font-size: 32px;
    font-weight: bold;
    padding: 20px 20px 20px 0px;
    margin: 10px;
 }
 
-.market p {
+.market p { /*adding margin to paragraph*/
     margin: 10px; 
 }
 
-.marketplans {
+.marketplans { /* modifying link to style it as a button*/
     color:white;
     font-size: 28px;
     text-decoration: none;
@@ -292,4 +292,72 @@ nav li a {
 }
                                     /* END MARKETING */
                                     /* VIDEO PRODUCTION */
+
+.video { /*adapting image to delimited area*/
+    width: 100%; 
+}
+
+.vid { /* applying styling to div for demark more area*/
+    padding-bottom: 25px;
+    margin:10px 40px 20px 40px;
+    background-color: #ffe6ac;  
+}
+
+.vid h2 { /*targeting h2 to demark some padding area*/
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px 20px 20px 0px;
+    margin: 10px;
+}
+
+.vid p { /*adding margin to paragraph*/
+    margin: 10px;
+}
+
+.vidplans { /* modifying link to style it as a button*/
+    color:white;
+    font-size: 28px;
+    text-decoration: none;
+    background-color:#222;       
+    padding:20px ; 
+    text-align: left;
+    margin: 10px; 
+}
+                            /* END VIDEO PRODUCTION */
+                            /* WEB DEVELOPMENT */
+.web { /*adapting image to delimited area*/
+    width: 100%; 
+}
+
+.webdev { /* applying styling to div for demark more area*/
+    padding-bottom: 25px;
+    margin:10px 40px 20px 40px;
+    background-color: #ffe6ac;  
+}
+
+.webdev h2 { /*targeting h2 to demark some padding area*/
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px 20px 20px 0px;
+    margin: 10px;
+}
+
+.webdev p { /*adding margin to paragraph*/
+    margin: 10px;
+}
+
+.webplans { /* modifying link to style it as a button*/
+    color:white;
+    font-size: 28px;
+    text-decoration: none;
+    background-color:#222;       
+    padding:20px ; 
+    text-align: left;
+    margin: 10px; 
+} 
+                        /* END WEB DEVELOPMENT */
+
+
+
+
 
