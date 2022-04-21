@@ -150,7 +150,7 @@ nav li a {
 }
 
 .mbanner { /*targeting image*/
-    max-width: 1200px;    
+    width: 1200px;    
 }
 .wrapper-welcome {    /*grey box banner text area*/
     background-color:rgb(0, 0, 0, 0.7);    
@@ -385,6 +385,82 @@ nav li a {
 }
                             /* END PRINT AREA */
 
+                            /* OUR VISION AREA */
+.ourvision { /*streching out the div and centering*/
+    max-width: 1200px;
+    margin: auto;
+}
 
+.boats { /*adapting image to delimited area*/
+    width: 100%;
+}
 
+.ourv { /*positioning second div with paragraphs and button*/
+    position:relative;
+    bottom: 500px;
+    padding-bottom: 25px;
+    
 
+}
+
+.ourv h2 { /*targeting h2 to demark some padding area*/
+    color:white;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px 20px 20px 0px;
+    margin: 20px;
+}
+
+.ourv p { /*adding margin and color to paragraph*/
+   margin: 20px;
+   color:white; 
+}
+
+.learn {
+    color:white;
+    font-size: 28px;
+    text-decoration: none;
+    background-color:#222;       
+    padding:30px 50px;
+    text-align: left;
+    margin: 20px;
+    border:#c78c06 solid 1px;  /*adding a border to the link's box*/
+}
+                                /* END OUR VISION AREA */
+                                /* OUR TEAM */
+            /* JHON PART */
+
+.john { /*john's image*/
+    width: 100%;
+}
+
+.ourteam { 
+    max-width: 1200px;
+    margin: auto;    
+}
+.info-john { /*div for background styling*/
+    background-color: #ffe6ac;
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+.info-john h2 { /*styling h2*/
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px 20px 10px 0px;    
+    font-weight: bold;
+}
+
+.info-john .ptitle { /*targeting a paragraph separetly*/
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.hline { /*changing the color of the line*/
+    color: #c78c06;
+}
+        /* END JHON PART */
+        /* BOB PART */
+
+.bob {
+    width: 100%;
+}
