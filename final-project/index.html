@@ -21,28 +21,31 @@
                 <img class="logo" src="images/logo.png" alt="logo"> <!--adding logo image before list of items--> <!--dividing nav bar with a div-->                                                
                 <ul class="nav-bar">                    
                     <li><a class="home" href="#">Home</a></li> <!--adding list items in nav bar-->
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a class="au" href="#">About Us</a></li>
+                    <li><a class="se" href="#">Services</a></li>
+                    <li><a class="te" href="#">Team</a></li>
+                    <li><a class="ct" href="#">Contact</a></li>
                 </ul>
                 <div class="sbwrapper"> <!--adding a new wrapper to hold properly the search bar areas-->
                     <input class="searchb" type="text" placeholder="Search" name="search"> <!--adding search bar-->
                     <button class="iconm" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> <!--adding font-awesome icon to the search bar-->
                 </div>                                
-            </nav>
-            
+            </nav>            
         </div>
     </header>    
-    <div class="banner"> <!--adding banner area with a class for targeting after in CSS-->
-        <img src="images/main-banner.jpg" alt="main-banner"> <!--adding banner image-->
-        <div class="wrapper"> <!--wrapper for text area-->
-            <h1>Welcome to Three Star Media</h1>
+    <!--<div class="wrapper"> adding banner area with a class for targeting after in CSS-->
+    <div class="main-banner">
+        <img class="mbanner" src="images/main-banner.jpg" alt="main-banner"> <!--adding banner image with a class to target in css-->        
+        <div class="wrapper-welcome"> <!--wrapper for text area-->
+            <h1><strong>Welcome to Three Star Media</strong></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae laboriosam ad culpa omnis facere repellendus maiores iure beatae rem nisi quas accusantium id aliquam quisquam, libero totam perspiciatis adipisci? Harum!</p>
-            <a class="connect" href="#">Connect with us</a>
-            <i class="fa-solid fa-caret-right"></i> <!--adding font-awesome caret icon-->
-        </div>        
-    </div>                            
+            <div class="bconnect">
+                <a href="#" class="connect">Connect with us
+                    <i class="fa-solid fa-caret-right"></i> <!--adding font-awesome caret icon-->
+                </a>                     
+            </div>
+        </div>
+    </div>                                 
     <div class="about">     <!--adding about area with a div and class to target in CSS - yellow area-->   
         <div class="wrapper"> <!--adding a wrraper for image and paragraph below-->
             <img class="ttennis" src="images/about-us.jpg" alt="about-us"> <!--adding a class to the image for targeting in css possibly with float-->

@@ -64,9 +64,12 @@ html {
     max-width: 1200px;
     margin: auto;
 }
+
+/* HEADER PART */
+
+
 .nav-part {
     background-color:#222;
-
 }
 
 .logo { 
@@ -82,7 +85,7 @@ html {
 
 
 /* targeting and modifying list of elements in nav bar for centering text and remove default text decorations */
-li a:link {
+nav li a {
     font-size: 20px;
     list-style-type: none;
     text-decoration: none;
@@ -95,9 +98,7 @@ li a:link {
 
 /* this is for get rid off the annoying purple color when a link is visited */
 
-a:visited { 
-    color: #c78c06;
-}
+
 /* targeting and modifying specifically the first link on the nav bar */
 
 .nav-bar .home {
@@ -136,5 +137,56 @@ a:visited {
     color: #c78c06;
     font-size: 30px;       
 }
+
+/* END OF HEADER PART */
+
+/* START OF BANNER PART */
+
+.main-banner { /* responsive image configuration */
+    max-width: 1200px;
+    margin: auto;      
+}
+
+.mbanner {
+    max-width: 1200px;
+    z-index: -1;
+}
+.wrapper-welcome {    /*grey box banner text area*/
+    background-color:rgb(0, 0, 0, 0.7);    
+    max-width: 1200px;
+    margin: 0px; /*allows to get the edge to edge look in mobile interface*/
+    height: auto;
+    padding: 100px; /*shrinks or enlarge shadowed box*/
+    position:absolute;
+    top: 600px;          
+}
+
+.wrapper-welcome h1 { /*target only h1 in banner area*/
+    font-size: 80px;
+    color: white;
+    padding:20px 0px 20px 0px;  /*adds some space between h1 and p*/
+    text-align: left;    /*aligns a little bit to the left*/
+}
+
+.wrapper-welcome p {
+    font-size: 18px;
+    color:white;
+    padding:30px 0px 50px 0px; /*adds some space between p and h1*/
+    text-align: left; /*aligns a little bit to the left*/
+}
+
+.connect { /*style connect with us button incluiding the icon*/
+    color: #222;
+    font-size: 28px;
+    text-decoration: none;
+    background-color:#c78c06;       
+    padding:20px; 
+    text-align: left;  /* align text inside the link area just to give some space to the icon*/
+}
+
+/* END OF BANNER PART */
+
+/* START OF ABOUT SECTION */
+
 
 
