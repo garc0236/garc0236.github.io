@@ -356,7 +356,34 @@ nav li a {
     margin: 10px; 
 } 
                         /* END WEB DEVELOPMENT */
-
+                        /* PRINT AREA */
+.print { /*adapting image to delimited area*/
+    width: 100%; 
+}
+.print-area { /* applying styling to div for demark more area*/
+    padding-bottom: 25px;
+    margin:10px 40px 20px 40px;
+    background-color: #ffe6ac; 
+}
+.print-area h2 { /*targeting h2 to demark some padding area*/
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px 20px 20px 0px;
+    margin: 10px;
+}
+.print-area p { /*adding margin to paragraph*/
+    margin: 10px;
+}
+.printplans { /* modifying link to style it as a button*/
+    color:white;
+    font-size: 28px;
+    text-decoration: none;
+    background-color:#222;       
+    padding:20px ; 
+    text-align: left;
+    margin: 10px; 
+}
+                            /* END PRINT AREA */
 
 
 
